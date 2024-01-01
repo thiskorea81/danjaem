@@ -1,6 +1,6 @@
 # main.py
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from routers.users import router as users_router
 from routers.auth import router as auth_router
 from database import engine
